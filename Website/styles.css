@@ -8,7 +8,39 @@ img.logo {
     overflow: hidden;
 }
 
-h1, p {
+h1, p, footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center; 
 }
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+
+  button {
+    background-color: #ff1e57;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+
+  #placeholder {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    font-size:80px;
+  }
+
+  footer {
+    background-color: #17BDBB;
+    padding: 25px;
+    color: white
+  }
