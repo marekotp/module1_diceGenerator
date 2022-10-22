@@ -25,3 +25,7 @@ let dice = {
     let result = dice.roll();
     printNumber(result);
   };
+
+  // function printConsole(text) {
+  //   let diceroll
+  // }
